@@ -1,0 +1,114 @@
+input.commentFormTextInput{
+    background-color: #222;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    margin: auto;
+    border-radius: 8px;
+    padding: 0px;
+    resize: none;
+    background-color: #36393e;
+    width: 100%;
+    margin-bottom: 10px;
+
+    padding: 2%;
+    color: white;
+    font-size: large;
+
+    
+
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+}
+
+h3.SubmitResponseOff{
+    background-color: #222;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    position: fixed;
+    top: 100%;
+    left: 100%;
+    transform: translate(-0%,-150%);
+    background-color: #222;
+    color: white;
+    width: 220px;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    font-size: xx-large;
+    transition: all 0.3s ease-in-out;
+}
+h3.SubmitResponseOn{
+    background-color: #222;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    position: fixed;
+    top: 100%;
+    left: 100%;
+    transform: translate(-105%,-150%);
+    background-color: #222;
+    color: white;
+    width: 220px;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    font-size: xx-large;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea.commentFormText{
+    background-color: #222;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    height: 160px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 0px;
+    resize: none;
+    background-color: #36393e;
+    width: 100%;
+
+    padding: 2%;
+    color: white;
+    font-size: large;
+
+    
+
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+}
+
+textarea.commentFormText:focus{
+    outline: none !important;
+    border:1px solid white;
+    box-shadow: 0 0 10px #7289da;
+}
+
+button.SubmitButton{
+    margin-top: 5px;
+    float: right;
+    width: 170px;
+    color: white;
+    background-color: #36393e;
+    font-size: large;
+    font: bold;
+}
+
+.commentText{
+    color: white;
+}
+
+.commentName{
+    color: white;
+}
+
+div.CommentForm{
+    padding-bottom: 80px;
+}
